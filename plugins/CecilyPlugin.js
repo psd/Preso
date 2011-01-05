@@ -4,7 +4,7 @@
 |''Author:''|Jeremy Ruston (jeremy (at) osmosoft (dot) com)|
 |''Source:''|http://svn.tiddlywiki.org/Trunk/contributors/JeremyRuston/plugins/CecilyPlugin.js|
 |''CodeRepository:''|http://svn.tiddlywiki.org/Trunk/contributors/JeremyRuston/plugins/CecilyPlugin.js|
-|''Version:''|0.1.3dev psd|
+|''Version:''|0.1.3dev1 psd|
 |''Status:''|Under Development|
 |''Date:''|July 20, 2009|
 |''Comments:''|Please make comments at http://groups.google.co.uk/group/TiddlyWikiDev|
@@ -688,7 +688,6 @@ Cecily.prototype.displayTiddler = function(superFunction,args) {
 	var pos = this.getTiddlerPosition(title,srcElement);
 	var transform = new cecilyTransform(tiddlerElem);
 	transform.transform({bounds: pos});
-	this.updateTiddlerPosition(title,tiddlerElem);
 	if(!startingUp) {
 		if(tiddlerElem.nextSibling) { // Move tiddler to the bottom of the Z-order if it's not already there
 			tiddlerElem.parentNode.insertBefore(tiddlerElem,null);
@@ -719,6 +718,9 @@ Cecily.prototype.loadMap = function(title) {
 
 // Save the current map into a named tiddler
 Cecily.prototype.saveMap = function(title) {
+	if (readOnly) {
+		return;
+	}
 	var mapTiddler = store.getTiddler(title);
 	if((mapTiddler == null) || (mapTiddler.isTagged("cecilyMap"))) {
 		var text = [];
