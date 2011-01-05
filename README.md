@@ -2,5 +2,5 @@ Preso is a [ZUI](http://en.wikipedia.org/wiki/Zooming_user_interface) presentati
 
 Example Preso presentations:
 
-    * [Metacrap](http://metacrap-preso.tiddlyspace.com)
-    * [Confusedviz](http://confusedviz.tiddlyspace.com)
+* [Metacrap](http://metacrap-preso.tiddlyspace.com)
+* [Confusedviz](http://confusedviz.tiddlyspace.com)
