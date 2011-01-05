@@ -1,0 +1,23 @@
+modifier: psd
+created: 20100917084616
+modified: 20101019163253
+type: None
+tags: excludeLists
+_hash: 1d2cc07c3508103e0b4ce98bbfd61d594ee2d54d
+
+Welcome to [[@@preso]], a TiddlySpace for creating zoomable landscape presentations.
+
+To get started, include this space in your own space and modify the following tiddlers:
+
+* [[SiteTitle]] & [[SiteSubtitle]]: The title and subtitle appear in the browser title bar
+* [[MainMenu]]: the list of tiddler references visited in order when pressing the [[arrow keys|Keyboard Shortcuts]]
+* [[DefaultTiddlers]]: the names of the tiddlers which appear when the page is opened
+
+The position and size of each tiddler is stored in [[MyMap]], but you can create other maps by creating a tiddler tagged <<tag cecilyMap>> and select the map used from the [[OverlayMenu]], accessed by [[double clicking|Keyboard Shortcuts]] the background.
+
+Many features of TiddlySpace are accessed via the backstage bar located at the top of the page. You can toggle it on or off using the button in the top right corner of the screen
+
+You might also like to add a SiteInfo tiddler to describe your presentation and upload a SiteIcon. A SiteIcon gives your space an identity to make it recognisable to others. A good site icon will be square and at least 48*48 pixels size.
+<<binaryUploadPublic title:SiteIcon>>
+
+.

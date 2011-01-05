@@ -1,0 +1,237 @@
+tags: excludeLists excludeSearch
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#displayArea.cecily {
+	float: none;
+	margin: 0em 0em 0em 0em;
+	position: relative;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+div#messageArea {
+	-webkit-transition: opacity 0.3s ease-in-out;
+	border: none;
+	background-color: transparent;
+	opacity: 0.8;
+}
+
+div#messageArea:hover {
+	opacity: 1.0;
+}
+
+div#messageArea .button {
+	padding: 0 0.25em 0 0.25em;
+	text-decoration: none;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color: #aaa;
+	color: #000;
+}
+
+div#messageArea:hover .button {
+	opacity: 1;
+}
+
+div#messageArea:hover .button:active {
+	background-color: [[ColorPalette::Foreground]];
+	color: [[ColorPalette::Background]];
+}
+
+#overlayMenu {
+	-webkit-box-shadow: 2px 2px 13px #000;
+	-moz-box-shadow: 2px 2px 13px #000;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	z-index: 100;
+	position: absolute;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	font-size: 0.8em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 10px solid #fff;
+	background-color: #fff;
+	display: none;
+}
+
+#overlayMenu table.twtable {
+	border: none;
+}
+
+#overlayMenu .twtable th{
+	border: none;
+}
+
+#overlayMenu .twtable td {
+	border: none;
+}
+
+#overlayMenu .twtable tr {
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+#overlayMenu a {
+	-webkit-transition: color 0.3s ease-in-out;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	background-color: #999;
+	border: none;
+	margin: 0 0.25em 0 0.25em;
+	padding: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+#overlayMenu a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+	color: #000;
+	background-color: #ff0;
+	border: none;
+}
+
+#overlayMenu .overlayCommand {
+	font-size: 2em;
+	color: #333;
+}
+
+div#backstageArea {
+	position: absolute;
+        width: 100%;
+}
+
+.cecilyCanvas {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #fff;
+}
+
+#tiddlerDisplay {
+	position: relative;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+}
+
+.cecily .tiddler {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	padding: 0;
+	background-color: transparent;
+	overflow: hidden;
+	border: none;
+}
+
+.cecily .textTiddler {
+	width: 60em;
+}
+
+.cecily .tiddler.drag {
+	-webkit-box-shadow: 2px 2px 13px #000;
+	-moz-box-shadow: 2px 2px 13px #000;
+}
+
+.cecily .tiddler .heading {
+	background-color: transparent;
+}
+
+.cecily .tiddler .toolbar {
+	cursor: all-scroll;
+	padding: 4pt 2pt 4pt 4pt;
+	color: #aaa;
+}
+
+.cecily .tiddler.selected .toolbar {
+	color: #fff;
+}
+
+.cecily .tiddler .toolbar a {
+	-webkit-transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+	margin: 0 0.25em 0 0.25em;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.cecily .tiddler.selected .toolbar a {
+	opacity: 1;
+	background-color: #aaa;
+	color: #fff;
+}
+
+.cecily .tiddler.selected .toolbar a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.cecily .tiddler.selected .toolbar a:active {
+	background-color: #fff;
+	color: #000;
+}
+
+.cecily .tiddler .title {
+	font-size: 5em;
+	cursor: all-scroll;
+	padding: 2pt 8pt 2pt 8pt;
+	color: #000;
+	background-color: transparent;
+}
+
+.cecily .tiddler .subtitle {
+	padding: 2pt 8pt 4pt 8pt;
+	color: #444;
+	font-size: 0.6em;
+	background-color: transparent;
+}
+
+.cecily .tiddler .viewer {
+	padding: 4pt 8pt 4pt 8pt;
+	background-color: transparent;
+}
+
+.cecily .tiddler .tagging,
+.cecily .tiddler .tagged {
+	float: none;
+	border: none;
+	padding: 2pt 8pt 2pt 8pt;
+	margin: auto;
+}
+
+.cecily .tiddler .tagged {
+	cursor: nwse-resize;
+}
+
+.cecily .tiddler .tagging, 
+.cecily .tiddler .tagged {
+	display: none;
+	background-color: auto;
+	border: auto;
+}
+
+.cecily .tiddler.selected .tagging, 
+.cecily .tiddler.selected .tagged {
+	display: block;
+	background-color: auto;
+	border: auto;
+}
+
+.cecily .tiddler.private .tagging, 
+.cecily .tiddler.private .tagged {
+	background-color: #FBB1DE;
+}
+
+.cecilyButton {
+	-webkit-appearance: push-button;
+}
+

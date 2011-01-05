@@ -1,0 +1,14 @@
+modifier: PaulDowney
+
+<!--{{{-->
+<div class="textTiddler">
+<div class='heading'>
+<div class='toolbar' macro='toolbar [[ToolbarCommands::ViewToolbar]]'></div>
+<div class='title' macro='view title'></div>
+</div>
+<div class='viewer' macro='view text wikified'></div>
+<div class='tagged' macro='tags'></div>
+<div class='tagging' macro='tagging'></div>
+<div class='tagClear'></div>
+</div>
+<!--}}}-->

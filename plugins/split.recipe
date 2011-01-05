@@ -1,0 +1,17 @@
+tiddler: CecilyPlugin.js
+
+tiddler: $TW_ROOT/contributors/MartinBudden/plugins/DisableWikiLinksPlugin.js
+
+recipe: $TW_ROOT/contributors/PaulDowney/plugins/ThemedTiddlerPlugin/ThemedTiddlerPlugin.recipe
+recipe: $TW_ROOT/contributors/PaulDowney/plugins/ImageViewMacroPlugin/ImageViewMacroPlugin.recipe
+recipe: $TW_ROOT/contributors/PaulDowney/plugins/KeyBindingsPlugin/KeyBindingsPlugin.recipe
+recipe: $TW_ROOT/contributors/PaulDowney/plugins/MainMenuNavigatorPlugin/MainMenuNavigatorPlugin.recipe
+
+recipe: $TW_ROOT/contributors/PaulDowney/plugins/FadingMessagesPlugin/FadingMessagesPlugin.recipe
+
+# for uploading to TiddlySpace
+tiddler: $TW_ROOT/association/adaptors/TiddlyWebAdaptor.js
+tiddler: UploadToTiddlySpace.js
+
+tiddler: ConfusedCecily.js
+tiddler: settings.js

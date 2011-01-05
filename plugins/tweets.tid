@@ -1,0 +1,4 @@
+tags: excludeSearch ticker javaScript
+ticker_interval=120
+
+config.macros.twitterSearch.onClick();

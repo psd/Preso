@@ -1,0 +1,13 @@
+tags: excludeSearch
+
+|''ViewTemplate''|##ViewTemplate|
+
+!!ViewTemplate
+<!--{{{-->
+<div class='toolbar' macro='toolbar [[ToolbarCommands::ViewToolbar]]'></div>
+<div class='title' macro='view title'></div>
+<div class='viewer image' macro='view text image'></div>
+<div class='tagged' macro='tags'></div>
+<div class='tagging' macro='tagging'></div>
+<div class='tagClear'></div>
+<!--}}}-->

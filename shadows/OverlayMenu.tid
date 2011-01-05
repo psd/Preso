@@ -1,0 +1,8 @@
+modifier: JeremyRuston
+
+|{{overlayCommand{go}}} |[[home|ProjectCecily]][[a-z|SideBarTabs]]<<search>> |
+|{{overlayCommand{zoom}}} |<<cecilyZoomAll>><<cecilyZoom>> |
+|{{overlayCommand{map}}} |<<cecilyMap>><<closeAll>> |
+|{{overlayCommand{share}}} |<<permaview>> <<uploadToTiddlySpace preso>>|
+|{{overlayCommand{create}}} |<<saveChanges>><<newTiddler>><<newJournal "DD MMM YYYY" "journal">> |
+|{{overlayCommand{tweak}}} |<<cecilyBackground>>[[options|OptionsPanel]] |
