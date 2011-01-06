@@ -3,9 +3,9 @@
 |''Description:''|A zooming user interface for TiddlyWiki|
 |''Author:''|Jeremy Ruston (jeremy (at) osmosoft (dot) com)|
 |''Source:''|http://svn.tiddlywiki.org/Trunk/contributors/JeremyRuston/plugins/CecilyPlugin.js|
-|''CodeRepository:''|http://svn.tiddlywiki.org/Trunk/contributors/JeremyRuston/plugins/CecilyPlugin.js|
+|''CodeRepository:''|https://github.com/psd/Preso|
 |''Version:''|0.1.3dev1 psd|
-|''Status:''|Under Development|
+|''Status:''|Forked by Paul Downey for Preso|
 |''Date:''|July 20, 2009|
 |''Comments:''|Please make comments at http://groups.google.co.uk/group/TiddlyWikiDev|
 |''License:''|BSD|
