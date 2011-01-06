@@ -4,3 +4,4 @@ Example Preso presentations:
 
 * [Metacrap](http://metacrap-preso.tiddlyspace.com)
 * [Confusedviz](http://confusedviz.tiddlyspace.com)
+* [Osmozoom](http://osmozoompreso.tiddlyspace.com)
